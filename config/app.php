@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Evercode1\FoundationMaker\FoundationMakerServiceProvider::class,
 
         //
 

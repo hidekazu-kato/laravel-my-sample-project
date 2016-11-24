@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "3f8a07cac0d1c1717858ad55a50d2dc7",
+    "content-hash": "9d976f9f533342414282792b47f78acb",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,55 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "evercode1/foundation-maker",
+            "version": "2.0.08",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evercode1/foundation-maker.git",
+                "reference": "c55378eccf0720a62f0b002fe302a357beabada1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evercode1/foundation-maker/zipball/c55378eccf0720a62f0b002fe302a357beabada1",
+                "reference": "c55378eccf0720a62f0b002fe302a357beabada1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.3.*",
+                "php": "^5.6.4 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Evercode1\\FoundationMaker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bill Keck",
+                    "email": "ikon321@yahoo.com",
+                    "homepage": "https://github.com/evercode1/foundation-maker",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Foundation Maker Artisan Commands for Laravel 5.3",
+            "homepage": "https://github.com/evercode1/foundation-maker",
+            "keywords": [
+                "Evercode1",
+                "foundation-maker"
+            ],
+            "time": "2016-11-05 01:09:56"
         },
         {
             "name": "jakub-onderka/php-console-color",
